@@ -2,7 +2,7 @@
 
 ## Description
 
-`Class_Retriever.py` is designed to process LECO ChromaTOF GC×GC-MS export files (.txt, tab-delimited) and extract summarized information for predefined compound classes such as alkanes, DINCH, and phthalates.
+`Class_Retriever.py` is designed to process LECO ChromaTOF GC×GC-MS export files (`.txt`, tab-delimited) and extract summarized information for predefined compound classes such as alkanes, DINCH, and phthalates.
 
 The script groups detected features into chemical classes based on the Classifications column, calculates class-level metrics (e.g., retention time ranges, total normalized area), and exports the results into a structured Excel file for downstream interpretation.
 
